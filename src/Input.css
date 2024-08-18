@@ -1,0 +1,49 @@
+.top-layer-inputs{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+    .top-layer-inputs{
+        flex-direction : column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .top-layer-inputs > div {
+        margin: 10px 0px;
+    }
+    .Disc-Class > input {
+        width: 165.5px;
+    }
+}
+
+
+.top-layer-inputs > div {
+    margin: 10px 10px;
+}
+
+.task-add-button > button{
+    padding: 3px 10px;
+    border-radius: 7px;
+    border: 0;
+    background-color: white;
+    color: lightgreen;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: 1px 1px black;
+}
+
+input{
+    width: 60%;
+}
+
+.Add-Button:hover {
+    transition: .3s;
+    color: white;
+    background-color: rgb(37, 219, 37);
+    border: 1px solid greenyellow;
+}

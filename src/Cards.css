@@ -1,0 +1,72 @@
+.container-for-cards{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    width: 30%;
+    margin-bottom: 15px;
+    border: rgb(17, 89, 17) 1px solid;
+    padding: 15px 10px;
+}
+
+.Card-Details > p,h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.Card-functions{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.Select-function > select {
+    margin-left: 10px;
+    width: 50%;
+    height: 22px;
+}
+
+.Card-buttons{
+    margin-top: 30px;
+    padding-top: 10px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+    .Card-buttons{
+        padding-top: 10px;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Card-buttons > button{
+        width: 100%;
+    }
+    .container-for-cards{
+        width: 100%;
+        margin-bottom: 15px;
+        border: rgb(17, 89, 17) 1px solid;
+        padding: 15px 10px;
+    }
+}
+
+.Card-buttons > button {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid green;
+    height: 25px;
+    font-size: small;
+    font-weight: 600;
+    color: black;
+    
+}
+
+.Select-function{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

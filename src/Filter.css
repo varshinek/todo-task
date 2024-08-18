@@ -1,0 +1,51 @@
+.filter-cards{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-card-text{
+    margin: 20px;
+}
+
+.filter-cards-function{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    flex-wrap: wrap;
+}
+
+.filter-card-text > h3 {
+    margin: 0%;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 600px) {
+    .filter-card-text > h3{
+        font-size: medium;
+    }
+}
+/* .filter-button */
+
+.filter-cards-function > button {
+    height: 30px;
+    border-radius: 7px;
+    border: 1px green solid;
+    background-color: whitesmoke;
+    color: lightgreen;
+    font-size: small;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+    width: 60px;
+}
+
+.filter-button :hover {
+    color: rgb(37, 219, 37);
+    background-color: aliceblue;
+}

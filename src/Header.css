@@ -1,0 +1,19 @@
+
+.Header{
+    background-color: lightgreen;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: xx-large;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+}
+
+@media screen and (max-width: 600px) {
+    .Header{
+        justify-content: center;
+        font-size: x-large;
+    }
+}
